@@ -25,6 +25,7 @@ public class AstralExpress implements ModInitializer
             .displayName(Text.translatable("Astral Express"))
             .entries((context, entries) ->{
                 entries.add(new ItemStack(ItemInit.TEST));
+                entries.add(new ItemStack(ItemInit.STELLAR_JADE));
             })
             .build();
 

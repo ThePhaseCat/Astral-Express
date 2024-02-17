@@ -10,4 +10,6 @@ import static net.minecraft.item.Items.register;
 public class ItemInit implements ItemRegistryContainer
 {
     public static final Item TEST = new Item(new FabricItemSettings());
+
+    public static final Item STELLAR_JADE = new Item(new FabricItemSettings());
 }
