@@ -31,11 +31,11 @@ public class AstralExpress implements ModInitializer
 
     @Override
     public void onInitialize() {
-        System.out.println("Astral Express Main initializing");
+        System.out.println("Astral Express Main initializing!");
 
         FieldRegistrationHandler.register(ItemInit.class, MOD_ID, false);
         Registry.register(Registries.ITEM_GROUP, new Identifier(MOD_ID, "astral_express"), AstralExpressItemGroup);
 
-        System.out.println("Astral Express Main initialized");
+        System.out.println("Astral Express Main initialized!");
     }
 }
